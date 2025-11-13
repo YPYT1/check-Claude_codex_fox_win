@@ -1,0 +1,51 @@
+{
+  "services": [
+    {
+      "id": "claude-fox_aws",
+      "name": "Claude Fox Aws",
+      "displayName": "AI Assistant (AWS)",
+      "type": "claude",
+      "cwd": "config/claude/fox_aws",
+      "command": "claude -p {prompt} --model {model}",
+      "params": {
+        "prompt": "20+2=?请你只回复数字",
+        "model": "claude-3-5-sonnet-20241022"
+      },
+      "timeout": 30000,
+      "expectedAnswer": "22",
+      "checkInterval": 5,
+      "enabled": true
+    },
+    {
+      "id": "claude-fox_droid",
+      "name": "Claude Fox Droid",
+      "displayName": "AI Assistant (Droid)",
+      "type": "claude",
+      "cwd": "config/claude/fox_droid",
+      "command": "claude -p {prompt} --model {model}",
+      "params": {
+        "prompt": "1+1=?请你只回复一个数字",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "timeout": 30000,
+      "expectedAnswer": "2",
+      "checkInterval": 3,
+      "enabled": true
+    },
+    {
+      "id": "codex-fox",
+      "name": "Codex Fox",
+      "displayName": "Code Assistant",
+      "type": "codex",
+      "command": "CODEX_HOME={codex_home} codex exec --skip-git-repo-check {prompt}",
+      "params": {
+        "codex_home": "config/codex/fox/.codex",
+        "prompt": "1+1=?请你只回复一个数字"
+      },
+      "timeout": 30000,
+      "expectedAnswer": "2",
+      "checkInterval": 10,
+      "enabled": true
+    }
+  ]
+}

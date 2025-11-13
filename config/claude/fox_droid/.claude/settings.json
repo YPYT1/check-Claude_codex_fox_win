@@ -1,0 +1,12 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-ant-oat01-7Nj8Xlez7IclBxtWV6nD7zmFmNhR8KxX8-sDBIAKKYMKEQxX_s6tEddw-c79gnHU9vv8UJNqHY2EAHdhU-6S8R_LN2TQmAA",
+    "ANTHROPIC_BASE_URL": "https://code.newcli.com/claude/droid",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "alwaysThinkingEnabled": true
+}

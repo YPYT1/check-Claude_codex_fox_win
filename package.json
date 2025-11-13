@@ -1,0 +1,17 @@
+{
+  "name": "checkcx",
+  "version": "1.0.0",
+  "description": "AI CLI Provider健康检查服务",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "cd frontend && pnpm build",
+    "start:prod": "pnpm build && node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "claude-fox_droid": {
+    "status": "error",
+    "lastCheck": "2025-11-13T10:33:03.975Z",
+    "lastResult": {
+      "name": "Claude Fox Droid",
+      "status": "error",
+      "responseTime": 3303,
+      "stdout": "API Error: 404 404 page not found",
+      "stderr": "",
+      "answer": null,
+      "message": "Exit code: 1",
+      "checkedAt": "2025-11-13T10:33:03.975Z",
+      "expectedAnswer": "2"
+    },
+    "recentChecks": [
+      {
+        "timestamp": "2025-11-13T10:26:50.077Z",
+        "status": "error",
+        "responseTime": 2718
+      },
+      {
+        "timestamp": "2025-11-13T10:27:02.828Z",
+        "status": "error",
+        "responseTime": 2363
+      },
+      {
+        "timestamp": "2025-11-13T10:30:04.629Z",
+        "status": "error",
+        "responseTime": 4581
+      },
+      {
+        "timestamp": "2025-11-13T10:33:03.975Z",
+        "status": "error",
+        "responseTime": 3303
+      }
+    ]
+  },
+  "claude-fox_aws": {
+    "status": "error",
+    "lastCheck": "2025-11-13T10:30:08.807Z",
+    "lastResult": {
+      "name": "Claude Fox Aws",
+      "status": "error",
+      "responseTime": 8768,
+      "stdout": "API Error: 400 {\"error\":{\"code\":\"model_not_found\",\"message\":\"模型 \\\"claude-sonnet-4-5-20250929\\\" 未开放调用当前调用方式\",\"type\":\"404\"}}",
+      "stderr": "",
+      "answer": null,
+      "message": "Exit code: 1",
+      "checkedAt": "2025-11-13T10:30:08.807Z",
+      "expectedAnswer": "22"
+    },
+    "recentChecks": [
+      {
+        "timestamp": "2025-11-13T10:26:51.980Z",
+        "status": "error",
+        "responseTime": 4639
+      },
+      {
+        "timestamp": "2025-11-13T10:30:08.807Z",
+        "status": "error",
+        "responseTime": 8768
+      }
+    ]
+  },
+  "codex-fox": {
+    "status": "ok",
+    "lastCheck": "2025-11-13T10:30:08.823Z",
+    "lastResult": {
+      "name": "Codex Fox",
+      "status": "ok",
+      "responseTime": 8767,
+      "stdout": "2",
+      "stderr": "OpenAI Codex v0.57.0 (research preview)\n--------\nworkdir: D:\\check-cx\nmodel: gpt-5-codex\nprovider: fox\napproval: never\nsandbox: read-only\nreasoning effort: high\nreasoning summaries: auto\nsession id: 019a7cc3-d52c-7862-af3f-e8d2e376ac6f\n--------\nuser\n\"1+1=?请你只回复一个数字\"\n\nthinking\n**Evaluating the command response**\n\nI’m thinking about how to respond accurately to the simple question, \"1+1=?\". The answer is clearly 2, but I need to make sure not to add any extra text since the instruction was clear about that. It’s straightforward, but I want to ensure that my response aligns with the requirements. So, I’ll keep it short and sweet, just saying the number without any fluff. I’ve got this!\ncodex\n2\ntokens used\n376",
+      "answer": "2",
+      "message": null,
+      "checkedAt": "2025-11-13T10:30:08.823Z",
+      "expectedAnswer": "2"
+    },
+    "recentChecks": [
+      {
+        "timestamp": "2025-11-13T10:26:52.672Z",
+        "status": "ok",
+        "responseTime": 5297
+      },
+      {
+        "timestamp": "2025-11-13T10:30:08.823Z",
+        "status": "ok",
+        "responseTime": 8767
+      }
+    ]
+  }
+}

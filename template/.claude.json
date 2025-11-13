@@ -1,0 +1,37 @@
+{
+  "numStartups": 36,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "customApiKeyResponses": {
+    "approved": [
+    ],
+    "rejected": []
+  },
+  "tipsHistory": {
+    "ide-hotkey": 35,
+    "plan-mode-for-complex-tasks": 35
+  },
+  "promptQueueUseCount": 1,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": "dim"
+    }
+  },
+  "projects": {
+
+  },
+  "hasCompletedOnboarding": true,
+  "mcpServers": {},
+  "cachedChangelog": "well no changelog",
+  "lastReleaseNotesSeen": "2.0.13",
+  "firstStartTime": "2025-10-26T09:34:28.888Z",
+  "sonnet45MigrationComplete": true,
+  "isQualifiedForDataSharing": false,
+  "hasOpusPlanDefault": false,
+  "userID": "b4e0ae52xxxxxdb0ad2fxx03b102a92557xxxb4a5xxxxxxxxxbaa27386f48a40"
+}
